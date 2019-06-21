@@ -5,9 +5,9 @@
   <title>Superhero Team</title>
  </head>
  <body>
- <h1><%=team.name %> </h1>
+ <h1><%=@team.name %> </h1>
 
- <h2>Team Motto: <%=team.motto %></h2>
+ <h2>Team Motto: <%=@team.motto %></h2>
 
   <% @heroes.each do |hero| %>
     <div class="hero">
